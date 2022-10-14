@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="todo.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div class="pane">
+        <div class="text">
+            <p id="word">Number of people:</p>
+        </div>
+        <div class="butt">
+            <p id="count">0</p>
+            
+        </div>
+        <div class="bt">
+            <button  onClick="increament()">Add</button>
+             <button  onClick="decrement()">minus</button>
+        </div>
+        <div style="display:flex;justify-content:center; margin-top:20px">
+          <button class="btn" onclick="saveData()">save</button>
+        </div>
+        <p id="saved">Previous entries: </p>
+        <p id="error"></p>
+    </div>
+    
+    <div class="pan">
+      <div style="display:flex;justify-content:end;font-family:mv boli;margin-right:8px;">fx-82ms</div>
+        <div style="width:260px;box-shadow:  inset 0px 11px 8px -10px rgb(101, 86, 86),
+        inset 0px -11px 10px -10px rgb(151, 132, 132); height:80px;margin:60px 20px 20px;background-color:WHITE;border-radius:5px">
+          <p id="total"></p>
+        </div>
+        <div class="btw">
+          <button class="putton" >AC</button>
+          <button class="putton">+/-</button>
+          <button class="putton">%</button>
+          <button class="putton" style="background-color:rgb(209, 209, 30)">/</button>
+          <button class="putton">7</button>
+          <button class="putton">8</button>
+          <button class="putton">9</button>
+          <button class="putton" style="background-color:rgb(209, 209, 30)">X</button>
+          <button class="putton">4</button>
+          <button class="putton">5</button>
+          <button class="putton">6</button>
+          <button class="putton" style="background-color:rgb(209, 209, 30)">-</button>
+          <button class="putton">1</button>
+          <button class="putton">2</button>
+          <button class="putton">3</button>
+          <button class="putton" style="background-color:rgb(209, 209, 30)">+</button>
+          
+        </div>
+        <div class="chris">
+          <button class="zero">0</button>
+          <button class="putton">.</button>
+          <button class="putton" style="background-color:rgb(209, 209, 30)">=</button>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
